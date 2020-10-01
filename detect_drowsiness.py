@@ -72,7 +72,7 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 # start the video stream thread
 print("[INFO] starting video stream thread...")
 vs = VideoStream(src=args["webcam"]).start()
-time.sleep(1.0)
+time.sleep(1.5)
 
 # loop over frames from the video stream
 while True:
